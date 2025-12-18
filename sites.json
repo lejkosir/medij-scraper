@@ -1,0 +1,106 @@
+{
+  "sites": [
+    {
+      "name": "24ur",
+      "url": "www.24ur.com",
+      "title": {
+          "tag": "h1",
+          "class": ""
+        },
+      "body": {
+        "tag": "div",
+        "class": "article__body"
+      },
+      "summary": {
+        "tag": "p",
+        "class": "font-bold text-18 text-black-900 dark:text-white-84"
+      },
+      "datetime": {
+        "tag": "p",
+        "class": "flex flex-wrap text-black-500 dark:text-white leading-caption text-15 md:text-17"
+      },
+      "clean": [
+        {
+          "tag": "div",
+          "class": "w-full relative my-32 clear-both gallery rounded-6 border border-black/30 overflow-hidden dark:border-white/30"
+        }
+      ]
+    },
+    {
+      "name": "Žurnal24",
+      "url": "www.zurnal24.si",
+      "title": {
+          "tag": "h1",
+          "class": "article__title"
+        },
+      "body": {
+        "tag": "div",
+        "class": "article__content no_page_break cf"
+      },
+      "summary": {
+        "tag": "div",
+        "class": "article__leadtext"
+      },
+      "datetime": {
+        "tag": "time",
+        "class": "article__time"
+      },
+          "clean": [
+      ]
+    },
+    {
+      "name": "Nova24tv",
+      "url": "nova24tv.si",
+      "title": {
+          "tag": "h1",
+          "class": "tdb-title-text"
+        },
+      "body": {
+        "tag": "div",
+        "class": "td_block_wrap tdb_single_content tdi_86 td-pb-border-top td_block_template_12 td-post-content tagdiv-type"
+      },
+      "summary": {
+      },
+      "datetime": {
+        "tag": "time",
+        "class": "entry-date updated td-module-date"
+      },
+          "clean": [
+      ]
+    },
+        {
+      "name": "N1info",
+      "url": "n1info.si",
+      "title": {
+          "tag": "h1",
+          "class": "title font-exo2 text-h4 md:text-h1 text-textLight-primary word-break mb-4"
+        },
+      "body": {
+        "tag": "div",
+        "class": "article-content-wrapper w-full"
+      },
+      "summary": {
+        "tag": "p",
+        "class": "mb-4 lg:mb-5 text-textPrimary font-exo2 text-xl leading-8 font-semibold"
+      },
+      "datetime": {
+        "tag": "div",
+        "class": "timestamp flex gap-1.5 font-exo2 font-normal text-xs md:text-sm md:leading-5 text-timestampHero"
+      },
+          "clean": [
+            {
+              "tag": "figcaption",
+              "class": "image-caption mt-1.5 font-exo2 text-sm leading-5 text-textSecondary border-b border-borderPrimary pb-1.5"
+            },
+            {
+              "tag": "div",
+              "class": "hidden xl:flex justify-end pr-5 pt-5 "
+            },
+            {
+              "tag": "div",
+              "class": "mb-4 lg:mb-5 bg-tertiary p-3 rounded-md border-primary border-x-0 border-y-[1px] related-news-block group"
+            }
+      ]
+    }
+  ]
+}

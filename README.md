@@ -1,2 +1,2 @@
-# medij-scraper
-Scraper za slovenske spletne medije
+# Medij scraper
+Preprost scraper za slovenske spletne medije.
