@@ -3,6 +3,7 @@
     {
       "name": "24ur",
       "url": "www.24ur.com",
+      "id": 1,
       "title": {
           "tag": "h1",
           "class": ""
@@ -22,7 +23,8 @@
       "clean": [
         {
           "tag": "div",
-          "class": "w-full relative my-32 clear-both gallery rounded-6 border border-black/30 overflow-hidden dark:border-white/30"
+          "class": "w-full relative my-32 clear-both gallery rounded-6 border border-black/30 overflow-hidden dark:border-white/30",
+          "action": ""
         }
       ]
     },
@@ -51,6 +53,7 @@
     {
       "name": "Nova24tv",
       "url": "nova24tv.si",
+      "id": "0",
       "title": {
           "tag": "h1",
           "class": "tdb-title-text"
@@ -71,6 +74,7 @@
         {
       "name": "N1info",
       "url": "n1info.si",
+      "id": 2,
       "title": {
           "tag": "h1",
           "class": "title font-exo2 text-h4 md:text-h1 text-textLight-primary word-break mb-4"
@@ -90,16 +94,150 @@
           "clean": [
             {
               "tag": "figcaption",
-              "class": "image-caption mt-1.5 font-exo2 text-sm leading-5 text-textSecondary border-b border-borderPrimary pb-1.5"
+              "class": "image-caption mt-1.5 font-exo2 text-sm leading-5 text-textSecondary border-b border-borderPrimary pb-1.5",
+              "action": ""
             },
             {
               "tag": "div",
-              "class": "hidden xl:flex justify-end pr-5 pt-5 "
+              "class": "hidden xl:flex justify-end pr-5 pt-5 ",
+              "action": ""
             },
             {
               "tag": "div",
-              "class": "mb-4 lg:mb-5 bg-tertiary p-3 rounded-md border-primary border-x-0 border-y-[1px] related-news-block group"
+              "class": "mb-4 lg:mb-5 bg-tertiary p-3 rounded-md border-primary border-x-0 border-y-[1px] related-news-block group",
+              "action": ""
             }
+      ]
+    },
+    {
+      "name": "siol",
+      "url": "siol.net",
+      "title": {
+          "tag": "h1",
+          "class": "article_head__title"
+        },
+      "body": {
+        "tag": "div",
+        "class": "article_content__inline_elements"
+      },
+      "summary": {
+        "tag": "div",
+        "class": "article_content__lead_text"
+      },
+      "datetime": {
+        "tag": "p",
+        "class": "article__publish_date"
+      },
+      "clean": [
+        {
+          "tag": "div",
+          "class": "twitter-tweet twitter-tweet-rendered",
+          "action": ""
+        },
+        {
+          "tag": "blockquote",
+          "class": "twitter-tweet",
+          "action": ""
+        }
+      ]
+    },
+    {
+      "name": "slovenskenovice",
+      "url": "slovenskenovice.delo.si",
+      "title": {
+          "tag": "h1",
+          "class": "article_title"
+        },
+      "body": {
+        "tag": "div",
+        "class": "article_body"
+      },
+      "paywall": {
+        "tag": "div",
+        "class": "article_body article_body_teaser"
+      },
+      "summary": {
+        "tag": "div",
+        "class": "article_subtitle"
+      },
+      "datetime": {
+        "tag": "div",
+        "class": "first_published"
+      },
+      "clean": [
+        {
+          "tag": "",
+          "class": "",
+          "action": ""
+        }
+      ]
+    },
+    {
+      "name": "mladina",
+      "url": "www.mladina.si",
+      "title": {
+          "tag": "h1",
+          "class": "ff-serif"
+        },
+      "body": {
+        "tag": "p",
+        "class": ""
+      },
+      "paywall": {
+        "tag": "div",
+        "class": "zakup-clankov"
+      },
+      "summary": {
+        "tag": "h2",
+        "class": "h5"
+      },
+      "datetime": {
+        "tag": "span",
+        "class": "author-txt"
+      },
+      "clean": [
+        {
+          "tag": "div",
+          "class": "box-share",
+          "action": ""
+        },
+        {
+          "tag": "p",
+          "class": "p-c",
+          "action": "class"
+        },
+        {
+          "tag": "form",
+          "class": "forma zetoni",
+          "action": ""
+        }
+      ]
+    },
+    {
+      "name": "sample",
+      "url": "www.tojesample.com",
+      "title": {
+          "tag": "h1",
+          "class": ""
+        },
+      "body": {
+        "tag": "div",
+        "class": ""
+      },
+      "summary": {
+        "tag": "div",
+        "class": ""
+      },
+      "datetime": {
+        "tag": "p",
+        "class": ""
+      },
+      "clean": [
+        {
+          "tag": "",
+          "class": "",
+          "action": "class = odstrani class iz taga;"
+        }
       ]
     }
   ]
